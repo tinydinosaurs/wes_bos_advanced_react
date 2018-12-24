@@ -1,0 +1,9 @@
+# this is where our client-facing query types and mutations will be
+# this file can't be empty or our server will crash...because we told it it look for resolvers
+type Mutation {
+    hi: String!
+}
+
+type Query {
+    bye: String!
+}
